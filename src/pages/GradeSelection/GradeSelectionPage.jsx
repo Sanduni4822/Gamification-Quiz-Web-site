@@ -20,15 +20,17 @@ export default function GradeSelectionPage({ onClose }) {
           Grade Selection <br /> Required
         </h2>
 
-        {/* Message */}
-        <p
-          className="text-white mb-6"
-          style={{
-            textShadow: "1px 1px 0 black, -1px -1px 0 black",
-          }}
-        >
-          Please select your grade before proceeding.
-        </p>
+        {/* Message with Background */}
+        <div className="bg-purple-800 rounded-lg py-3 px-4 mb-6 shadow-md">
+          <p
+            className="text-white"
+            style={{
+              textShadow: "1px 1px 0 black, -1px -1px 0 black",
+            }}
+          >
+            Please select your grade before proceeding.
+          </p>
+        </div>
 
         {/* Try Again Button */}
         <button

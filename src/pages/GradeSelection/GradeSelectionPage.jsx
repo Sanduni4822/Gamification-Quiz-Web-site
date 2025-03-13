@@ -3,6 +3,7 @@ import React from "react";
 export default function GradeSelectionPage({ onClose }) {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+      {/* Modal Container */}
       <div className="bg-purple-700 p-6 rounded-2xl shadow-2xl w-80 max-w-sm text-center border-4 border-purple-300 relative">
 
         {/* Alert Icon (Positioned Inside the Frame) */}
@@ -20,8 +21,13 @@ export default function GradeSelectionPage({ onClose }) {
           Grade Selection <br /> Required
         </h2>
 
-        {/* Message with Background */}
-        <div className="bg-purple-800 rounded-lg py-3 px-4 mb-6 shadow-md">
+        {/* Message with Darker Background */}
+        <div
+          className="rounded-lg py-3 px-4 mb-6 shadow-md"
+          style={{
+            backgroundColor: "#2a0a45", // Custom darker purple color
+          }}
+        >
           <p
             className="text-white"
             style={{

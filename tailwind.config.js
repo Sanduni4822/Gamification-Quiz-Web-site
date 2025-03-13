@@ -6,10 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      backdropBlur: {
+        sm: "4px",
+      },
       fontFamily: {
-        title: ['"Luckiest Guy"', "cursive"], // For "Login" heading
-        button: ['"Press Start 2P"', "cursive"], // For buttons
-        body: ['"Fredoka One"', "cursive"], // For input & body text
+        title: ['"Luckiest Guy"', "cursive"],
+        button: ['"Press Start 2P"', "cursive"],
+        body: ['"Fredoka One"', "cursive"],
       },
     },
   },

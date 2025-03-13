@@ -8,12 +8,12 @@ export default function GradeSelectionPage({ onClose }) {
 
         {/* Alert Icon (Positioned Inside the Frame) */}
         <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-14 h-14 flex items-center justify-center bg-red-600 rounded-full border-4 border-white shadow-md">
-          <span className="text-white text-4xl font-bold">!</span>
+          <span className="text-white text-4xl font-bold font-title">!</span>
         </div>
 
         {/* Title (Split into Two Lines) */}
         <h2
-          className="text-white text-xl font-bold mt-10 mb-4 leading-snug"
+          className="text-white text-xl font-bold mt-10 mb-4 leading-snug font-title"
           style={{
             textShadow: "1px 1px 0 black, -1px -1px 0 black",
           }}
@@ -29,7 +29,7 @@ export default function GradeSelectionPage({ onClose }) {
           }}
         >
           <p
-            className="text-white"
+            className="text-white font-body"
             style={{
               textShadow: "1px 1px 0 black, -1px -1px 0 black",
             }}
@@ -41,7 +41,7 @@ export default function GradeSelectionPage({ onClose }) {
         {/* Try Again Button */}
         <button
           onClick={onClose}
-          className="w-full bg-gradient-to-b from-red-500 to-red-600 text-white text-lg py-2 rounded-lg border-4 border-black shadow-lg hover:from-red-400 hover:to-red-500 active:scale-95 font-bold"
+          className="w-full bg-gradient-to-b from-red-500 to-red-600 text-black text-lg py-2 rounded-lg border-4 border-black shadow-lg hover:from-red-400 hover:to-red-500 active:scale-95 font-button"
           style={{
             textShadow: "1px 1px 0 black, -1px -1px 0 black",
           }}
